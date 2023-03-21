@@ -1,0 +1,41 @@
+//primera parte: Suma
+
+func main() {
+    var resultado int
+    suma(5, 10, 15, &resultado)
+    fmt.Println(resultado)
+}
+
+func suma(a int, b int, c int, resultado *int) {
+    *resultado = a + b + c
+}
+ 
+        
+        
+  // Segunda parte: clase Coche
+  
+      Coche miCoche = new Coche(2);
+        miCoche.addPuerta();
+        System.out.println("El coche tiene " + miCoche.getNumPuertas() + " puertas");
+    }
+    
+    public static int sumar(int num1, int num2, int num3) {
+        return num1 + num2 + num3;
+    }
+}
+
+public class Coche {
+    private int numPuertas;
+
+    public Coche(int numPuertas) {
+        this.numPuertas = numPuertas;
+    }
+
+    public int getNumPuertas() {
+        return numPuertas;
+    }
+
+    public void addPuerta() {
+        numPuertas++;
+    }
+}
